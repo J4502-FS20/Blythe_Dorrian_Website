@@ -12,7 +12,7 @@ display:flex;
 flex-direction: column;
 font-weight:lighter;
 background-color: #D0D0D0;
-justify-content:space-around;
+justify-content:center;
 }
 
 ul {
@@ -84,8 +84,13 @@ p {
   padding:5px;
 }
 
-@media only screen and (min-width:730px) {
+@media only screen and (min-width:600px) {
   .nav {
     flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .nav a {
+    width: 300px;
+    padding: 10px;
   }
 }
