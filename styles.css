@@ -74,7 +74,7 @@ a:hover {
 
 h1 {
 font-size: 34px;
-font-family: 'Lobster', cursive;
+font-family: 'Lobster', cursive, sans-serif;
 background-color:white;
 }
 
@@ -84,13 +84,13 @@ p {
   padding:5px;
 }
 
-@media only screen and (min-width:450px) {
+@media only screen and (min-width:650px) {
   .nav {
     flex-direction: row;
     flex-wrap: wrap;
   }
   .nav a {
     width: 200px;
-    padding: 8px;
+    padding: 9px;
   }
 }
