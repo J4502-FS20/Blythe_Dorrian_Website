@@ -84,13 +84,13 @@ p {
   padding:5px;
 }
 
-@media only screen and (min-width:600px) {
+@media only screen and (min-width:450px) {
   .nav {
     flex-direction: row;
     flex-wrap: wrap;
   }
   .nav a {
-    width: 300px;
-    padding: 10px;
+    width: 200px;
+    padding: 8px;
   }
 }
